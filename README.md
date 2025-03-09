@@ -49,6 +49,6 @@ A way for visitor to leave *nice* messages :)
     > Note: On a Mac, the default port 5000 is used by AirDrop & Handoff; you may have to turn those off
 
 4. After development session, deactivate the python env
-    ``bash
-    `    (.venv)$ deactivate
+    ```bash
+    (.venv)$ deactivate
     ```
