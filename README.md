@@ -1,8 +1,7 @@
-# Python Template
+# Guestbook
 
-An opinionated starter project for flask python projects. It contains code for a new [Flask Blueprint](https://flask.palletsprojects.com/en/stable/blueprints/).
 
-**DO NOT PUSH PROJECT-SPECIFIC CHANGES**
+A way for visitor to leave *nice* messages :)
 
 ## Project setup
 
@@ -22,16 +21,10 @@ An opinionated starter project for flask python projects. It contains code for a
 
     ```bash
     # clone the project
-    $ git clone git@git.sr.ht:~ayoayco/python-template [project-name]
+    $ git clone git@git.sr.ht:~ayoayco/guestbook
 
     # go into the directory
-    $ cd [project-name]
-
-    # remove template .git stuff
-    $ rm -rf .git
-
-    # initialize git
-    $ git init .
+    $ cd guestbook
 
     # create python environment:
     $ python3 -m venv .venv
@@ -47,8 +40,6 @@ An opinionated starter project for flask python projects. It contains code for a
 
     # rejoice!
     ```
-
-4. RENAME ALL `blueprintname` strings to what your blueprint is
 
 3. To start development, run the following:
     ```bash
