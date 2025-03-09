@@ -136,6 +136,8 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='variables.css') }}" />
   <link rel="stylesheet" href="{{ url_for('static', filename='reset.css') }}" />
 
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css')}}" />
+
 </head>
 
 <body>
@@ -150,6 +152,7 @@
   </header>
   <main>
     {% include "form.html" %}
+    {% include "messages.html" %}
   </main>
   <footer>
     <p>
@@ -163,12 +166,6 @@
     </p>
   </footer>
 
-  <script type="module">
-    import TimeAgo from "https://esm.sh/v135/@github/relative-time-element@4.4.0/es2022/relative-time.js"
-    customElements.define('relative-time', TimeAgo)
-  </script>
-  <script type="module" src="{{ url_for('guestbook.static', filename='enhance-content.js') }}">
-  </script>
 </body>
 
 </html>
