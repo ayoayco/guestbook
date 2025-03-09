@@ -1,7 +1,7 @@
 # Guestbook
 
 
-A way for visitor to leave *nice* messages :)
+A way for visitors to leave *nice* messages :)
 
 ## Project setup
 
