@@ -142,7 +142,7 @@
   <a id="top"></a>
   <header>
     {% include "nav.html" %}
-    <a class="app-title" href="{{url_for('blueprintname.home')}}">
+    <a class="app-title" href="{{url_for('guestbook.home')}}">
       <h1>{{ app.title }}</h1>
     </a>
     <p>{{ app.description }}</p>
@@ -161,14 +161,13 @@
       {% endif %}
       {{ attribution.owner }}
     </p>
-    <p>Rendered on {{ render_date }} in Europe/Amsterdam</p>
   </footer>
 
   <script type="module">
     import TimeAgo from "https://esm.sh/v135/@github/relative-time-element@4.4.0/es2022/relative-time.js"
     customElements.define('relative-time', TimeAgo)
   </script>
-  <script type="module" src="{{ url_for('blueprintname.static', filename='enhance-content.js') }}">
+  <script type="module" src="{{ url_for('guestbook.static', filename='enhance-content.js') }}">
   </script>
 </body>
 

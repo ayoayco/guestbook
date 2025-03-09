@@ -1,0 +1,14 @@
+{
+  "APPS": {
+    "blueprintname": {
+      "title": "Title",
+      "description": "This is a description for the new project",
+      "site_name": "usually-a-domain.com"
+    }
+  },
+  "ATTRIBUTION": {
+    "owner": "Author Name",
+    "year": "2024"
+  },
+  "TEMPLATES_AUTO_RELOAD": "True"
+}

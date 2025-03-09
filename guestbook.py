@@ -1,17 +1,16 @@
 from flask import Blueprint, render_template, current_app
 from .cache import cache
 
-blueprintname = Blueprint("blueprintname", __name__, template_folder="templates", static_folder="static")
+guestbook = Blueprint("guestbook", __name__, template_folder="templates", static_folder="static")
 
 
 def get_attribution():
     return current_app.config['ATTRIBUTION']
 
 def get_app_config():
-    return current_app.config['APPS']['blueprintname']
+    return current_app.config['APPS']['guestbook']
 
-
-@blueprintname.route("/")
+@guestbook.route("/")
 @cache.cached(timeout=300)
 async def home():
 
