@@ -2,7 +2,7 @@ image: alpine/edge
 secrets:
   - bbfcb6dc-7c4a-42ee-a11a-022f0339a133
 environment:
-  REPO: python-template
+  REPO: guestbook
   GH_USER: ayoayco
 tasks:
   - push-mirror: |
